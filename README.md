@@ -1,2 +1,2 @@
 # sae41
-Repo du contenant le projet sae41
+Repo contenant le projet sae41
