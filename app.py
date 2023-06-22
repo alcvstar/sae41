@@ -45,7 +45,7 @@ def login_required(f):
 @app.route('/dashboard')
 @login_required
 def dashboard():
-    # Affichez le tableau de bord de l'utilisateur connecté
+    # Affiche le tableau de bord de l'utilisateur connecté
     return render_template('dashboard.html')
 
 if __name__ == '__main__':
