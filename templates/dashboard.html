@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tableau de bord</title>
+</head>
+<body>
+    <h2>Bienvenue dans votre tableau de bord</h2>
+    <!-- Affichez ici les informations et fonctionnalités spécifiques à l'utilisateur -->
+    <p>Utilisateur : {{ username }}</p>
+    <p>Réunions :</p>
+    <ul>
+        {% for meeting in meetings %}
+            <li>{{ meeting.title }}</li>
+        {% endfor %}
+    </ul>
+    <a href="/logout">Se déconnecter</a>
+</body>
+</html>
