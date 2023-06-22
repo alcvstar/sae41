@@ -1,0 +1,7 @@
+version: '3'
+services:
+  db_users:
+    image: my-db-container
+    environment:
+      - MYSQL_ROOT_PASSWORD=foo
+      - MYSQL_DATABASE=base
